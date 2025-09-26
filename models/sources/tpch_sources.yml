@@ -20,5 +20,5 @@ sources:
             description: Foreign Key to O_ORDERKEY
             tests:
               - relationships:
-                  to: source('tpch', 'orders')
+                  to: source('raw_tpch', 'orders')
                   field: o_orderkey
